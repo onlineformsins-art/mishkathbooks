@@ -1,12 +1,11 @@
-const base = import.meta.env.BASE_URL;
+// src/components/Books.tsx or wherever you show images
 
 function Books() {
   return (
     <div>
       <h1>My Books</h1>
-      <img src={`${base}books/image1.jpg`} alt="Book 1" />
-      <img src={`${base}books/image2.jpg`} alt="Book 2" />
-      {/* Add more images as needed */}
+      <img src="/mishkathbooks/books/image1.jpg" alt="Book 1" />
+      <img src="/mishkathbooks/books/image2.jpg" alt="Book 2" />
     </div>
   );
 }
