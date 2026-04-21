@@ -69,5 +69,7 @@ export default defineConfig([
       // other options...
     },
   },
-])
+])fix image paths
 ```
+
+fix image paths
