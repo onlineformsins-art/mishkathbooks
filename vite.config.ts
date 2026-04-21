@@ -2,6 +2,7 @@ import path from "path"
 import react from "@vitejs/plugin-react"
 import { defineConfig } from "vite"
 import { inspectAttr } from 'kimi-plugin-inspect-react'
+<img src={`${base}books/image1.jpg`} />
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -16,6 +17,3 @@ export default defineConfig({
     },
   },
 });
-const base = import.meta.env.BASE_URL;
-
-<img src={`${base}books/image1.jpg`} />
