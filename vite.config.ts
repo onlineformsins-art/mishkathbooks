@@ -16,4 +16,6 @@ export default defineConfig({
     },
   },
 });
-<img src={`${import.meta.env.BASE_URL}books/image1.jpg`} />
+const base = import.meta.env.BASE_URL;
+
+<img src={`${base}books/image1.jpg`} />
