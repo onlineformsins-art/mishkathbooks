@@ -1,5 +1,7 @@
 name: Deploy to GitHub Pages
+const base = import.meta.env.BASE_URL;
 
+<img src={`${base}books/image1.jpg`} />
 on:
   push:
     branches: [main]
