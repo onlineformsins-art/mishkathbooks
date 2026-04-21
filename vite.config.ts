@@ -16,3 +16,4 @@ export default defineConfig({
     },
   },
 });
+<img src={`${import.meta.env.BASE_URL}books/image1.jpg`} />
